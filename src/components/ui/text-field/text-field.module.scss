@@ -1,0 +1,35 @@
+.textField {
+    display: flex;
+    flex-direction: column;
+
+    span {
+        margin-bottom: 4px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    input {
+        max-width: 212px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        border: 1px solid #D8D8D8;
+        font-size: 14px;
+        line-height: 16px;
+        width: 100%;
+
+        &:invalid {
+            border: 1px solid #D91313;
+            outline: none;
+        }
+    }
+
+    textarea {
+        resize: none;
+        min-width: 100%;
+        padding: 5px 10px;
+    }
+}
+
+.textField + .textField {
+    margin-top: 10px;
+}

@@ -1,0 +1,30 @@
+.userCard {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: '100%';
+    background-color: #F3F3F3;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+    h3 + h3 {
+        margin-top: 8px;
+    }
+
+    h3 {
+        font-weight: 400;
+        font-size: 11px;
+
+        span {
+            color: #A3A3A3;
+        }
+    }
+
+    a {
+        font-size: 12px;
+        color: #4B51EF;
+        text-decoration: none;
+        align-self: flex-end;
+    }
+}
